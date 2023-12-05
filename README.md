@@ -9,6 +9,9 @@ End: ...
 # Introduction
 The Consumer Behavior and Shopping Habits Dataset provides comprehensive insights into consumers' preferences, tendencies, and patterns during their shopping experiences. This dataset encompasses a diverse range of variables, including demographic information, purchase history, product preferences, shopping frequency, and online/offline shopping behavior. With this rich collection of data, analysts and researchers can delve into the intricacies of consumer decision-making processes, aiding businesses in crafting targeted marketing strategies, optimizing product offerings, and enhancing overall customer satisfaction.
 
+# Purpose
+I want to create several ML models with different tasks. This dataset has no target value, so i will select it by myself or even create it. 
+
 
 # Data
 This is a detailed overview of consumer preferences and purchasing behaviors. It includes demographic information, purchase history, product preferences, and preferred shopping channels (online or offline). This dataset is essential for businesses aiming to tailor their strategies to meet customer needs and enhance their shopping experience, ultimately driving sales and loyalty.
@@ -34,3 +37,5 @@ The column-wise description is down below:
 **`Payment Method`**: Specifies the mode of payment employed by the customer.\
 **`Frequency of Purchases`**: Indicates how often the customer engages in purchasing activities.
 
+
+# Sum
