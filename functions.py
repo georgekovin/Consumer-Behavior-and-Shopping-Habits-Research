@@ -4,16 +4,12 @@
 import pandas as pd
 
 
-def get_data_info(data):
-    """Выводит на экран основную информацию о датасете: 
-    количество пропусков в процентном соотношении, 
-    количество уникальных значений и типы данных каждого признака."""
-    
-    data_info = pd.DataFrame({'Nulls': (data.isna().sum() * 100/data.shape[0]).round(2), 
-                              'Uniques': data.nunique(dropna=False),
-                              'Dtypes': data.dtypes})
-
-    return data_info
+get_data_info = lambda data: pd.DataFrame({'Nulls': (data.isna().sum() * 100/data.shape[0]).round(2), 
+                                           'Uniques': data.nunique(dropna=False),
+                                           'Dtypes': data.dtypes})
+"""Выводит на экран основную информацию о датасете: 
+   количество пропусков в процентном соотношении, 
+   количество уникальных значений и типы данных каждого признака."""
 
 
 get_populars = lambda data, first=100: (data

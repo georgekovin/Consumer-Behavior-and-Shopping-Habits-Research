@@ -1,4 +1,4 @@
-# Consumer-Behavior-and-Shopping-Habits-Research
+# Consumer Behavior and Shopping Habits Research
 Consumer Behavior and Shopping Habits Research with EDA and ML.\
 Dataset was taken from [Kaggle]('https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset').
 
@@ -7,15 +7,13 @@ End: ...
 
 
 # Introduction
-The Consumer Behavior and Shopping Habits Dataset provides comprehensive insights into consumers' preferences, tendencies, and patterns during their shopping experiences. This dataset encompasses a diverse range of variables, including demographic information, purchase history, product preferences, shopping frequency, and online/offline shopping behavior. With this rich collection of data, analysts and researchers can delve into the intricacies of consumer decision-making processes, aiding businesses in crafting targeted marketing strategies, optimizing product offerings, and enhancing overall customer satisfaction.
+The Consumer Behavior and Shopping Habits Dataset provides comprehensive insights into consumers' preferences, tendencies, and patterns during their shopping experiences. This dataset encompasses a diverse range of variables, including demographic information, purchase history, product preferences, shopping frequency, and online/offline shopping behavior. With this rich collection of data, analysts and researchers can delve into the intricacies of consumer decision-making processes, aiding businesses in crafting targeted marketing strategies, optimizing product offerings, and enhancing overall customer satisfaction. This dataset is essential for businesses aiming to tailor their strategies to meet customer needs and enhance their shopping experience, ultimately driving sales and loyalty.
 
 # Purpose
 I want to create several ML models with different tasks. This dataset has no target value, so i will select it by myself or even create it. 
 
 
 # Data
-This is a detailed overview of consumer preferences and purchasing behaviors. It includes demographic information, purchase history, product preferences, and preferred shopping channels (online or offline). This dataset is essential for businesses aiming to tailor their strategies to meet customer needs and enhance their shopping experience, ultimately driving sales and loyalty.
-
 The column-wise description is down below:
 
 **`Customer ID`**: A unique identifier assigned to each individual customer.\
