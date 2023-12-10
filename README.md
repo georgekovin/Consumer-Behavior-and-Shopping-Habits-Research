@@ -3,15 +3,10 @@ Consumer Behavior and Shopping Habits Research with EDA and ML.\
 Dataset was taken from [Kaggle]('https://www.kaggle.com/datasets/zeesolver/consumer-behavior-and-shopping-habits-dataset').
 
 Beginning: 30 nov 2023\
-End: ...
-
-
-# Introduction
-The Consumer Behavior and Shopping Habits Dataset provides comprehensive insights into consumers' preferences, tendencies, and patterns during their shopping experiences. This dataset encompasses a diverse range of variables, including demographic information, purchase history, product preferences, shopping frequency, and online/offline shopping behavior. With this rich collection of data, analysts and researchers can delve into the intricacies of consumer decision-making processes, aiding businesses in crafting targeted marketing strategies, optimizing product offerings, and enhancing overall customer satisfaction. This dataset is essential for businesses aiming to tailor their strategies to meet customer needs and enhance their shopping experience, ultimately driving sales and loyalty.
+End: 30 dec 2023
 
 # Purpose
 I want to create several ML models with different tasks. This dataset has no target value, so i will select it by myself or even create it. 
-
 
 # Data
 The column-wise description is down below:
@@ -35,5 +30,8 @@ The column-wise description is down below:
 **`Payment Method`**: Specifies the mode of payment employed by the customer.\
 **`Frequency of Purchases`**: Indicates how often the customer engages in purchasing activities.
 
-
-# Sum
+# Tasks
+I selected 3 targets for 3 tasks:
+* *REGRESSION*: predict **Purchase Amount** to find out, which clients are ready to spent more money.
+* *CLASSIFICATION*: predict **Subscription Status** to fing out the loyalty of clients.
+* *CLUSTERING*: predict **Frequency of Purchases** to define groups of clients depending on how often they make purchases.
