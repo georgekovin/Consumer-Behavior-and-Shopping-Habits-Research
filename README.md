@@ -34,4 +34,4 @@ The column-wise description is down below:
 I selected 3 targets for 3 tasks:
 * *REGRESSION*: predict **Purchase Amount** to find out, which clients are ready to spent more money.
 * *CLASSIFICATION*: predict **Subscription Status** to fing out the loyalty of clients.
-* *CLUSTERING*: predict **Frequency of Purchases** to define groups of clients depending on how often they make purchases.
+* *MULTICLASS CLASSIFICATION & CLUSTERING*: predict **Frequency of Purchases** to define groups of clients depending on how often they make purchases.
